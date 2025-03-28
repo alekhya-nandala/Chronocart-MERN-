@@ -1,0 +1,27 @@
+.similarproducts{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    gap:10px;
+    height:90vh;
+    
+
+}
+.similarproducts h1{
+    color:black;
+    font-size: 50px;
+    font-weight: 400;
+}
+.similarproducts hr{
+    width: 200px;
+    height:6px;
+    background: #70b1dc;
+}
+.relatedproducts-item{
+    margin-top: 50px;
+    display:flex;
+    padding-left: 100px;
+    
+
+
+}
