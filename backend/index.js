@@ -8,7 +8,10 @@ const cors = require("cors");
 const { log } = require("console");
 
 app.use(express.json());
-app.use(cors());
+app.use(cors({
+  origin: "https://chronocart-mern-project-9yfh.onrender.com"
+}));
+
 
 // 1) Connect to MongoDB
 mongoose.connect(
@@ -42,7 +45,8 @@ app.post("/upload", upload.single("product"), (req, res) => {
     return res.status(400).json({ success: 0, message: "No file uploaded" });
   }
   // Construct the URL pointing to the uploaded file
-  const imageUrl = `http://localhost:${port}/images/${req.file.filename}`;
+  // Construct the URL pointing to the uploaded file using the deployed address
+  const imageUrl = `https://chronocart-mern-project-s10s.onrender.com/images/${req.file.filename}`;
   return res.status(200).json({
     success: 1,
     image_url: imageUrl,
