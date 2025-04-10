@@ -15,7 +15,7 @@ const ShopContextProvider = (props) => {
   const [cartItems, setCartItems] = useState(getDefaultCart());
 
   useEffect(() => {
-    fetch("https://chronocart-mern-project-s10s.onrender.com/allproducts")
+    fetch("https://chronocart-mern.onrender.com/allproducts")
       .then((response) => response.json())
       .then((data) => {
         setAllProduct(data);
@@ -24,7 +24,7 @@ const ShopContextProvider = (props) => {
         console.error("Error fetching products:", error);
       });
       if (localStorage.getItem("auth-token")) {
-        fetch("https://chronocart-mern-project-s10s.onrender.com/getcartdata", {
+        fetch("https://chronocart-mern.onrender.com/getcartdata", {
           method: "POST",
           headers: {
             Accept: "application/form-data",
@@ -45,7 +45,7 @@ const ShopContextProvider = (props) => {
 
     // If user is logged in, update the count on the server as well
     if (localStorage.getItem("auth-token")) {
-      fetch("https://chronocart-mern-project-s10s.onrender.com/addtocart", {
+      fetch("https://chronocart-mern.onrender.com/addtocart", {
         method: "POST",
         headers: {
           Accept: "application/json",
@@ -67,7 +67,7 @@ const ShopContextProvider = (props) => {
   const removeFromCart = (itemId) => {
     setCartItems((prev) => ({ ...prev, [itemId]: prev[itemId] - 1 }));
     if(localStorage.getItem("auth-token")) {
-      fetch("https://chronocart-mern-project-s10s.onrender.com/removefromcart", {
+      fetch("https://chronocart-mern.onrender.com/removefromcart", {
         method: "POST",
         headers: {
           Accept: "application/json",
