@@ -8,9 +8,8 @@ const cors = require("cors");
 const { log } = require("console");
 
 app.use(express.json());
-app.use(cors({
-  origin: "https://chronocart-mern-project-9yfh.onrender.com"
-}));
+app.use(cors());
+
 
 
 // 1) Connect to MongoDB
