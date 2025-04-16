@@ -20,7 +20,7 @@ mongoose.connect(
 
 // 2) Basic route
 app.get("/", (req, res) => {
-  res.send("Express App is Running");
+  res.send("Express App is Running::");
 });
 
 // 3) Multer setup for file uploads
