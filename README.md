@@ -1,4 +1,4 @@
-Here's a project description: ChronoCart, a full-stack e-commerce application built with the MERN stack:
+Here's a project description: ChronoCart, a full-stack e-commerce application built with the MERN stack:)
 
 🛒 ChronoCart – Full-Stack MERN E-Commerce App
 
@@ -6,7 +6,7 @@ Live Demo: https://chronocart-mern-1ujf.vercel.app/
 
 
 
-ChronoCart is a modern e-commerce platform developed using the MERN stack (MongoDB, Express.js, React.js, Node.js).It offers a seamless shopping experience with features like product browsing, cart management, and secure checkout
+ChronoCart is a modern e-commerce platform developed using the MERN stack (MongoDB, Express.js, React.js, Node.js).It offers a seamless shopping experience with features like product browsing, cart management, and secure checkout
 
 🔧 Tech Stack
 
@@ -18,10 +18,10 @@ ChronoCart is a modern e-commerce platform developed using the MERN stack (Mongo
 
 ✨ Features
 
-- User Authentication Secure registration and login functionalitie.
-- Product Management Admins can add, update, and delete product.
-- Shopping Cart Users can add products to the cart, adjust quantities, and remove item.
-- Order Processing Users can place orders and view order histor.
-- Responsive Design Optimized for both desktop and mobile device.
+- User Authentication : Secure registration and login functionalities
+- Product Management : Admins can add, update, and delete product.
+- Shopping Cart : Users can add products to the cart, adjust quantities, and remove item.
+- Order Processing : Users can place orders and view order histor.
+- Responsive Design : Optimized for both desktop and mobile device.
 
 
