@@ -6,7 +6,7 @@ Live Demo: https://chronocart-mern-1ujf.vercel.app/
 
 
 
-ChronoCart is a modern e-commerce platform developed using the MERN stack (MongoDB, Express.js, React.js, Node.js).It offers a seamless shopping experience with features like product browsing, cart management, and secure checkout
+ChronoCart is a modern e-commerce platform developed using the MERN stack (MongoDB, Express.js, React.js, Node.js).It offers a seamless shopping experience with features like product browsing, cart management, and secure checkout
 
 🔧 Tech Stack
 
